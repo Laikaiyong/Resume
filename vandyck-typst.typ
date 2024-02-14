@@ -1,10 +1,56 @@
-#let primary_colour = rgb("#C52530") // vivid purple
+#let primary_colour = rgb("#C52530") // red
 #let link_colour = rgb("#12348e") // blue
 
 #let styled-link(dest, content) = emph(text(
     fill: link_colour,
     link(dest, content)
   ))
+
+#let unstyled-link(dest, content) = emph(text(
+    link(dest, content)
+  ))
+
+#let view-more-block(text, link) = unstyled-link(
+    link
+  )[
+    #block(
+      fill: rgb("#D47D83"),
+      inset: 8pt,
+      radius: 4pt
+    )[#text]
+  ]
+
+#let button-badge(item) = {
+  box(
+      fill: rgb("#D47D83"),
+      inset: (x: 3pt, y: 0.5pt),
+      outset: (y: 3pt),
+      radius: 2pt
+    )[#text(
+      fill: white,
+      item
+    )]
+}
+
+#let project-heading(title) = {
+  text(
+    fill: primary_colour,
+    title
+  )
+}
+
+#let badge-text(badge, item) = {
+
+  grid(
+    columns: (60pt, 1fr),
+    rows: auto,
+    gutter: 3pt,
+    button-badge(
+      badge
+    ),
+    item
+  )
+}
 
 #let icon(name, shift: 1.5pt) = {
   box(

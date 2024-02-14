@@ -1,4 +1,4 @@
-#import "vandyck-typst.typ": resume, term, skill, styled-link, findMe
+#import "vandyck-typst.typ": resume, term, skill, styled-link, findMe, badge-text, project-heading
 
 #resume(
   name: "Kai Yong Lai (Vandyck)",
@@ -18,89 +18,132 @@
     #set par(justify: true)
     A full stack software developer.
     Enthusiast in data science field.
-    Passionate community builder.
+    Passionate in community building, public speaking and exploring the unknown.
 
-    == Experience
+    == Language
 
-    === Junior Software Engineer \
-    _Company Two_\
-    #term[Jul 2021 --- Jul 2022][London, UK]
+    #skill("Mandarin · English · Malay", 5)
+    #skill("Cantonese", 2)
+    #skill("Japanese", 1)
+    
 
-    - #lorem(15)
-    - #lorem(10)
-    - #lorem(24)
+    #link("https://linkedin.com/in/lai-kai-yong/details/experience/")[== Experience]
+  
+    === Mobile App Developer \
+    _Farmz Asia_\
+    #term[Aug 2023 --- Present][Kuala Lumpur, MY]
 
-    === Junior Systems Administrator \
-    _Company 1_\
-    #term[Oct 2019 --- Jul 2021][Bournemouth, UK]
+    - Team of four, digitalizing healthcare education business workflows
+    - Flutter mobile application development, focuses on beauty challenge module and sleep ring module
+    - UI/UX Figma Prototyping aligning to business requirements
+    - Database and Storage Administration (MySQL, S3)
 
-    - #lorem(20)
-    - #lorem(10)
+    === Software Developer \
+    _Infront Consulting_\
+    #term[May 2022 --- Dec 2023][Selangor, MY]
 
-    References available on request
+    - Handles five projects in mobile app dev, web dev, data & game dev
+    - Developing solutions in React Native, Django, Pandas, React, JavaScript
+    - Daily standup Scrum practice, Client Physical and Virtual meeting
+    - Projects are in Agriculture, Health Screening, Team Engagement, Logistics Industry
 
-    == Education
+    === Atlassian Administrator | Team Lead \
+    _Asia Pacific University_\
+    #term[Mar 2021 --- Jan 2023][Kuala Lumpur, MY]
 
-    === Higher \
-    _University Name_\
-    #term[Sep 2019 --- Jul 2023][Location, UK]
+    - Team lead fo Atlassian tools (Team of three)
+    - Administrating Jira, Confluence (Automation, Workflows, SLAs, QA Form, Virtual Help Centre)
+    - Documents both technical and theoritical guides for university
+    - Digital Art Design, Develop Knowledge Base iframe Menu
 
-    B.Sc. Computer Science with Year in Industry. #lorem(10)
+    #link("https://linkedin.com/in/lai-kai-yong/details/education/")[== Education]
 
-    === A-Levels \
-    _Place Grammar School_\
-    #term[Sep 2017 --- Aug 2019][Place, UK]
+    === Bachelor Degree \
+    _Asia Pacific University_\
+    #term[Nov 2022 --- Nov 2024][Kuala Lumpur, Malaysia]
 
-    #lorem(10)
+    B.Sc. Software Engineering. Scored 3.74 CGPA
+
+    === Diploma \
+    _Asia Pacific University_\
+    #term[May 2020 --- July 2022][Kuala Lumpur Malaysia]
+
+    Diploma ICT Specialism in Data Informatics. Scored 3.93 CGPA
 
     == Interests
 
-    - Walks on the beach
-    - #lorem(8)
-    - #lorem(6)
-    - #lorem(4)
-    - #lorem(12)
-
+    - Enjoy Buffet, Food "Hunting"
+    - Gym Session
+    - Chillax Movie Session
 
     
+
     #colbreak()
-    == Projects
+    #link("https://linkedin.com/in/lai-kai-yong/details/projects/")[== Projects]
 
-    ==== #link("https://example.com")[Some project]
+    #project-heading([=== Job (GA Viewable)])
 
-    #lorem(30)
-    
-    #styled-link("https://example.com")[Example page]
+    #link("https://play.google.com/store/apps/details?id=com.farmzsg.farmz&hl=en&gl=US")[=== Farmz Asia Mobile Application] \
+    Responsible in Beauty Challenge Module, Assist Sleep Ring Module. Built in Flutter.
 
-    ==== Project with a longer name
+    #link("https://play.google.com/store/apps/details?id=com.icgmy.smartpoultry&hl=en&gl=US")[=== Ladang Pintar Mobile Application] \
+    Develop agriculture chicken poultry application for manager, operator and vet. Built in React Native.
 
-    #lorem(20)
+    #link("https://apiit.atlassian.net/wiki/spaces/KB/overview")[=== APU Knowledge Base] \
+    Administrating and writing guides for Asia Pacific University's stakeholders. Built with Atlassian tools.
 
-    ==== Employee Appraisal System
+    #project-heading([=== Hackathons])
 
-    - #lorem(15)
-    - #lorem(10)
-    - #lorem(20)
+    #link("https://www.youtube.com/watch?v=fpBrj3lLvx4&feature=youtu.be")[=== HOnboarding] \
+    Customer Support Agent Platform powered by Gen AI. Built in Svelte + Streamlit on AWS.
 
-    ==== Hackathons
-
-    / Hack1: #lorem(20)
-    / TwoHackTwo: #lorem(15)
-
-    ==== Project 4
-
-    - #lorem(30)
-    - #lorem(10)
-
-    ==== Project Five
-
-    - #lorem(23)
+    #link("https://sharks-lyart.vercel.app/")[=== SharkScan] \
+    Identify presence of shark groups and other marine life to prevent bycatching. Built in Solid + Mapbox.
 
     == Skills
 
-    #skill("Go", 5)
-    #skill("TypeScript", 3)
-    #skill("Git", 1)
-    #skill("Typst", 1)
+    #badge-text("Basics", "HTML · CSS · SQL · Git · Office 365 · Notion · Jira")
+    #badge-text("Language", "Python · JavaScript · TypeScript · Dart · R · Java · PHP")
+    #badge-text("Framework", "Flutter · Astro · Django · Ionic · Next · React · Vue")
+    #badge-text("Datastore", "MongoDB · MySQL · S3 · Firestore · Supabase")
+    #badge-text("Dev Tools", "AWS · Azure · Power Platform · VS Code · Postman")
+    #badge-text("Additional", "Pandas · Streamlit · Laravel · Adobe Photoshop")
+
+    #link("https://www.linkedin.com/in/lai-kai-yong/details/certifications/")[== Certification]
+
+    - #link("https://www.credly.com/badges/5d178728-fa2f-443e-b1dc-274ba9f3f096/linked_in_profile")[Microsoft Certified Solutions Architect Expert]
+    - #link("https://www.credly.com/badges/5e209ca1-9980-48dd-813a-2ec35492d8fc/linked_in_profile")[AWS Certified Solution Architect Associate]
+    - #link("https://www.credly.com/badges/9cc23575-0b95-433e-a9b8-56cee0d9c0f3")[IBM Applied Data Science with Python - Level 2]
+    - #link("hhttps://www.credly.com/badges/213f7cf8-272c-4d04-92ea-c34661a50929")[Adobe Creative Educator Level 1]
+    - #link("hhttps://www.credly.com/badges/ed773bcd-7fad-4bcb-89a1-73a78d367ab2")[
+Certified TigerGraph Associate Exam]
+    - #link("https://www.credly.com/badges/7bf01705-e3f1-4c55-a1bb-839ab50e49c9")[F5 ASEAN NGINX API Specialist]
+
+
+    #link("https://www.linkedin.com/in/lai-kai-yong/details/honors/")[== Achievement]
+
+    - Finalist Viction Horizon - Startup Hackathon
+    - Top 10 Kitahack
+    - Top 10 DevHack
+    - Top 30 Can You Hack It 2023 Generative AI Edition
+    - APU BCC Sparkathon Jupiter Aggregator Track Winner
+
+    #link("https://linkedin.com/in/lai-kai-yong/details/volunteering/")[== Volunteer]
+
+    - Google Developer Group (GDG) Cloud KL Lead
+    - MongoDB User Group (MUG) KL Lead
+    - Tableau User Group (TUG) KL Lead
+    - AWS Cloud Club Captain \@ APU
+    - Microsoft Learn Student Ambassador \@ APU
+    - Notion Campus Leader \@ APU
+    - Streamlit Student Ambassador Leader \@ APU
+
+    == Referer
+
+    === Janise Tan \
+    _Google Regional Lead, DevRel SEA_\
+    #findMe((
+      (name: "alias", link: "mailto:janiset@google.com", display: "janiset@google.com"),
+    ))
   ],
 )
