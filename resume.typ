@@ -16,7 +16,7 @@
     == About Me
 
     #set par(justify: true)
-    A full stack software developer.
+    A full stack web 2.5 software developer.
     Enthusiast in data science field.
     Passionate in community building, public speaking and exploring the unknown.
 
@@ -94,20 +94,20 @@
 
     #project-heading([=== Hackathons])
 
-    #link("https://www.youtube.com/watch?v=fpBrj3lLvx4&feature=youtu.be")[=== HOnboarding] \
-    Customer Support Agent Platform powered by Gen AI. Built in Svelte + Streamlit on AWS.
+    #link("https://ethktshift.vercel.app/")[=== SHIFT] \
+    Mitigating event clashes and increase community engagement with quadratic funding pool. Built in Next, Solidity & Scroll.
 
-    #link("https://sharks-lyart.vercel.app/")[=== SharkScan] \
-    Identify presence of shark groups and other marine life to prevent bycatching. Built in Solid + Mapbox.
+    #link("https://mrbeans.streamlit.app/")[=== Mr Beans] \
+    Empower Coffee Bean Supplier with AI on LLM, Object Detection etc. Built in Streamlit, PyTorch, HuggingFace & MongoDB.
 
     == Skills
 
-    #badge-text("Basics", "HTML · CSS · SQL · Git · Office 365 · Notion · Jira")
+    #badge-text("Basics", "HTML · CSS · SQL · Git · Office 365 · Notion · Atlassian")
     #badge-text("Language", "Python · JavaScript · TypeScript · Dart · R · Java · PHP")
     #badge-text("Framework", "Flutter · Astro · Django · Ionic · Next · React · Vue")
-    #badge-text("Datastore", "MongoDB · MySQL · S3 · Firestore · Supabase")
+    #badge-text("Datastore", "MongoDB · MySQL · S3 · RDS · Firebase · Supabase")
     #badge-text("Dev Tools", "AWS · Azure · Power Platform · VS Code · Postman")
-    #badge-text("Additional", "Pandas · Streamlit · Laravel · Adobe Photoshop")
+    #badge-text("Additional", "Pandas · Streamlit · Laravel · Adobe · Figma")
 
     #link("https://www.linkedin.com/in/lai-kai-yong/details/certifications/")[== Certification]
 
@@ -122,10 +122,10 @@ Certified TigerGraph Associate Exam]
 
     #link("https://www.linkedin.com/in/lai-kai-yong/details/honors/")[== Achievement]
 
-    - Finalist Viction Horizon - Startup Hackathon
-    - Top 10 Kitahack
-    - Top 10 DevHack
-    - Top 30 Can You Hack It 2023 Generative AI Edition
+    - ETH KL 2024 Main Track Winner
+    - Hilti ITC 2024 Champion
+    - Solana BuildStation Champion
+    - Radar Hackathon Superteam Malaysia Side Track Champion
     - APU BCC Sparkathon Jupiter Aggregator Track Winner
 
     #link("https://linkedin.com/in/lai-kai-yong/details/volunteering/")[== Volunteer]
