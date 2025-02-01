@@ -1,10 +1,10 @@
 #let primary_colour = rgb("#C52530") // red
 #let link_colour = rgb("#12348e") // blue
 
-#let styled-link(dest, content) = emph(text(
-    fill: link_colour,
+#let styled-link(dest, content) = text(
+    fill: primary_colour,
     link(dest, content)
-  ))
+)
 
 #let unstyled-link(dest, content) = emph(text(
     link(dest, content)
@@ -66,7 +66,9 @@
   let icon = icon.with(shift: 2.5pt)
 
   services.map(service => {
-      icon(service.name)
+      if service.name != "none" {
+        icon(service.name)
+      }
 
       if "display" in service.keys() {
         styled-link(service.link)[#{service.display}]
@@ -80,8 +82,9 @@
 }
 
 #let term(period, location) = {
-  text(9pt)[#icon("calendar") #period #h(1fr) #icon("location") #location]
+  text(9pt)[#period #h(1fr) #location]
 }
+
 
 #let max_rating = 5
 #let skill(name, rating) = {
@@ -116,6 +119,7 @@
 
   [\ ]
 }
+
 
 #let resume(
   name: "",
