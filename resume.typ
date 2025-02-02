@@ -109,7 +109,7 @@
     )[
       - Developed ML models & AI Agent for coffee bean delivery related workflow
       - 95% accuracy in bean type detection
-      - Tech: PyTorch, HuggingFace, OpenCV, MongoDB
+      - Tech: PyTorch, HuggingFace, OpenCV, MongoDB, Fireworks AI
     ]
 
     === Cof'e - AI Covid Risk Detection through CoughSound

@@ -90,7 +90,7 @@
     )[
       - Built platform for smart contract developers to practice Solidity
       - Implemented automated test cases and code validation system
-      - Tech: Next, Solidity, Solc, ethereumjs
+      - Tech: Next, Solidity, Solc, ethereumjs, Gemini, MongoDB
     ]
 
     === SHIFT - Decentralized Event Platform
@@ -109,7 +109,7 @@
     )[
       - Developed AI trading bot for automated crypto trading on BNB
       - Implemented price prediction, sentiment analysis and AI reasoning for trading signals
-      - Tech: Node, CoinGecko API, Dodoex, BNB Chain
+      - Tech: Node, CoinGecko API, Dodoex, BNB Chain, Groq, Llama
     ]
 
 
