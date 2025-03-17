@@ -1,4 +1,4 @@
-#import "vandyck-typst.typ": resume, term, skill, styled-link, findMe, badge-text, project-heading
+#import "../../vandyck-typst.typ": resume, term, skill, styled-link, findMe, badge-text, project-heading
 
 #resume(
   name: "Kai Yong Lai (Vandyck)",
@@ -42,7 +42,7 @@
     - Led development across 4 projects spanning mobile, web, and data solutions
     - Increased client satisfaction through agile delivery
     - Involved in Logictics, HealthCare, Agriculture & Consulting
-    
+
     == Education
 
     === Bachelor of Science in Software Engineering \
@@ -84,24 +84,14 @@
 
     == Projects
 
-    === Farmz Asia Mobile App - Wellness at your fingertip
+    === Hireti - AI Powered Talent Acquisition System
     #block(
       below: 8pt,
     )[
-      - Led development of wellness tracking features
-      - 2K+ downloads available on both Appstore and Playstore
-      - Tech: Flutter, Golang, Vultr, MySQL
+      - Developed AI-driven talent acquisition platform with automated resume parsing
+      - Streamline resume OCR to screening to matching system
+      - Tech: Next, M365 API, Amazon Textract, Sagemaker, Bedrock
     ]
-
-    === SHIFT - Decentralized Event Platform
-    #block(
-      below: 8pt,
-    )[
-      - Built platform that aims to avoid clashing community events
-      - Implemented quadratic funding pool with contribute to earn feature
-      - Tech: Next, Solidity, Scroll L2, World 
-    ]
-
 
     === Mr Beans - AI Coffee Supplier Analysis
     #block(
@@ -119,6 +109,16 @@
       - Managed the UI Flow Procedure in ensuring product experience
       - Deployed scalable web platform for real-time cough analysis
       - Tech: Django, Jinja2, AWS, Celery
+    ]
+
+
+    === CoinMaster - AI Crypto Trading Telegram Bot
+    #block(
+      below: 8pt,
+    )[
+      - Developed AI trading bot for automated crypto trading on BNB
+      - Implemented price prediction, sentiment analysis and AI reasoning for trading signals
+      - Tech: Node, CoinGecko API, Dodoex, BNB Chain, Groq, Llama
     ]
 
     == Certifications

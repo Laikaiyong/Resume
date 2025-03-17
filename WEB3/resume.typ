@@ -1,4 +1,4 @@
-#import "vandyck-typst.typ": resume, term, skill, styled-link, findMe, badge-text, project-heading
+#import "../vandyck-typst.typ": resume, term, skill, styled-link, findMe, badge-text, project-heading
 
 #resume(
   name: "Kai Yong Lai (Vandyck)",
@@ -42,7 +42,7 @@
     - Led development across 4 projects spanning mobile, web, and data solutions
     - Increased client satisfaction through agile delivery
     - Involved in Logictics, HealthCare, Agriculture & Consulting
-    
+
     == Education
 
     === Bachelor of Science in Software Engineering \
@@ -84,13 +84,13 @@
 
     == Projects
 
-    === Farmz Asia Mobile App - Wellness at your fingertip
+    === Rarecode - Leetcode for Solidity
     #block(
       below: 8pt,
     )[
-      - Led development of wellness tracking features
-      - 2K+ downloads available on both Appstore and Playstore
-      - Tech: Flutter, Golang, Vultr, MySQL
+      - Built platform for smart contract developers to practice Solidity
+      - Implemented automated test cases and code validation system
+      - Tech: Next, Solidity, Solc, ethereumjs, Gemini, MongoDB
     ]
 
     === SHIFT - Decentralized Event Platform
@@ -103,22 +103,23 @@
     ]
 
 
-    === Mr Beans - AI Coffee Supplier Analysis
+    === CoinMaster - AI Crypto Trading Telegram Bot
     #block(
       below: 8pt,
     )[
-      - Developed ML models & AI Agent for coffee bean delivery related workflow
-      - 95% accuracy in bean type computer vision detection
-      - Tech: PyTorch, HuggingFace, OpenCV, MongoDB, Fireworks AI
+      - Developed AI trading bot for automated crypto trading on BNB
+      - Implemented price prediction, sentiment analysis and AI reasoning for trading signals
+      - Tech: Node, CoinGecko API, Dodoex, BNB Chain, Groq, Llama
     ]
 
-    === Cof'e - AI Covid Risk Detection through CoughSound
+
+    === Sol Eco-Waifu - Eco-products E-commerce with AI Waifu
     #block(
       below: 8pt,
     )[
-      - Managed the UI Flow Procedure in ensuring product experience
-      - Deployed scalable web platform for real-time cough analysis
-      - Tech: Django, Jinja2, AWS, Celery
+      - Built e-commerce platform integrating AI virtual waifu + NFT for sustainable products
+      - Implemented Livestream Selling, AI Waifu VR Virtualization
+      - Tech: Next, Virtuals, Codigo, Solana, Metaplex, Huddle01
     ]
 
     == Certifications

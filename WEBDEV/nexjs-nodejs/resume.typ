@@ -22,8 +22,15 @@
 
     == Experience
   
+    === AI Agent Engineer \@  _Exponent AI_ \
+    #term[Feb 2025 --- Current][Remote | Thailand]
+
+    - Architected and led development of Exponent Analyst's multi-platform chatbots (Telegram & Discord)
+    - Orchestrated seamless integration of LLM services, APIs, and client-facing interfaces
+    - Work alongside containerized architecture in team of 4 using Docker
+
     === Full Stack Software Developer \@  _Farmz Asia_ \
-    #term[Aug 2023 --- Jan 2025][Remote | Singapore]
+    #term[Aug 2023 --- Feb 2025][Remote | Singapore]
 
     - Led development of beauty challenge module on mobile app reaching 2000+ active users
     - Contribute to sleep ring module on mobile app and Farmz admin portal
@@ -34,14 +41,7 @@
 
     - Led development across 4 projects spanning mobile, web, and data solutions
     - Increased client satisfaction through agile delivery
-    - Involved in Logictics, HealthCare, Agriculture & Consulting Industry
-
-    === Atlassian Team Lead \@ _Asia Pacific University_ \
-    #term[Mar 2021 --- Jan 2023][Hybrid |Malaysia]
-
-    - Led team of 3 managing Atlassian suite for 10,000+ users
-    - Reduced support ticket resolution time through workflow automation and SLA tracking
-    - Created comprehensive knowledge base accessed by multi-roles stakeholders
+    - Involved in Logictics, HealthCare, Agriculture & Consulting
 
     == Education
 
