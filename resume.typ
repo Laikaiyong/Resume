@@ -8,7 +8,7 @@
     #block(
       below: 12pt,
     )[
-      #text(size: 14pt)[Full Stack Software Engineer]
+      #text(size: 14pt)[Full Stack Engineer]
     ]
 
      #findMe((
@@ -18,16 +18,23 @@
     ))
 
     == About Me
-    A full stack software developer with expertise in Web3, Web, Mobile & Data Science Development. Built multiple award-winning applications both career and hackathons. Demonstrated leadership through community initiatives reaching thousands developers globally.
+    A full stack engineer with experiences in Web3, Mobile & Data Science Development. Built multiple award-winning applications both career and hackathons. Demonstrated leadership through community initiatives reaching thousands developers globally.
 
     == Experience
   
-    === AI Agent Engineer \@  _Exponent AI_ \
-    #term[Feb 2025 --- Current][Remote | Thailand]
+    === Full Stack Engineer \@  _Gacha_ \
+    #term[Aug 2025 --- Current][Remote | Hong Kong]
 
-    - Architected and led development of Exponent Analyst's multi-platform chatbots (Telegram & Discord)
-    - Orchestrated seamless integration of LLM services, APIs, and client-facing interfaces
-    - Work alongside containerized architecture in team of 4 using Docker
+    - Fast-paced development iteration and product engineering
+    - Develop comprehensive features to support selling to shipping
+    - Collaborate in a team of 5 to deliver product
+  
+    === Full Stack Software Engineer \@  _RareSkills_ \
+    #term[Jan 2025 --- Current][Remote | United States]
+
+    - Solo Designed, developed and deployed end-to-end solution for code exercise platform
+    - Work closely and report directly to COO and CEO
+    - Design and maintain full tech infrastructure 
 
     === Full Stack Software Developer \@  _Farmz Asia_ \
     #term[Aug 2023 --- Feb 2025][Remote | Singapore]
@@ -52,21 +59,21 @@
 
     == Ambassadorship
 
-    - Google Developer Group Cloud KL Lead: Organized workshops, conferences, meetups (10000+ participants)
+    - Google Developer Group Cloud KL Lead: Organized workshops, conferences, meetups (10k+ participants)
     - MongoDB UG KL Lead | Community Creator: Organized Bi-Monthly Meetups (average 40+ participants)
     - Tableau UG KL Lead: Organized Monthly Meetups & Viz Challenge (Gather professionals from dif fields)
-    - Notion Campus Leader: Organized 50+ Events including non-tech and tech around Notion in 1 year time
+    - Notion Ambassadors: Organized Meetups and Gathering over Notion in Malaysia
 
     == Public Speaking
 
+    === MongoDB .local London 2025 \
+    _Livestream podcast on Community Upskilling_\
+
+    === Google Developer Group Cloud KL DevFest 2025 \
+    _Spoke about building AI agent with ADK & MongoDB_\
+
     === AWS Cloud Day Malaysia 2024 \
     _Spoke about Building RAG with MongoDB & Amazon Titan for AWS_\
-
-    === AWS Community Day Malaysia 2024 \
-    _Spoke about Create Live Streaming Platform like Twitch_\
-
-    === Google Developer Group Cloud KL DevFest 2024 \
-    _Led workshop on Building RAG with MongoDB & Gemini for Flutter_\
 
     #colbreak()
 
@@ -84,6 +91,34 @@
 
     == Projects
 
+    === Gacha Pull - TCG Card Packs E-Commerce Platform
+    #block(
+      below: 8pt,
+    )[
+      - Built full platform from product features to business analytics
+      - Developed comprehensive commerce flow, product management, and inventory tracking
+      - Tech: React, Hono, Cloudflare, Supabase, EVM, Abstract, Solidity
+    ]
+
+
+    === RareCode - LLM Guided Code Exercises
+    #block(
+      below: 8pt,
+    )[
+      - Built and deployed LLM-supported website with custom compiler (Rust, Solidity) backend
+      - Implemented serverless architecture for high availability
+      - Tech: Next, AWS Lambda, Docker, ECS Fargate, MongoDB, Gemini
+    ]
+
+    === Exponent AI - Web3 Research AI Agent
+    #block(
+      below: 8pt,
+    )[
+      - Built multi-platform AI research agent for Web3 ecosystem (Telegram & Discord bots)
+      - Developed scalable chatbot architecture with LLM integration for real-time crypto research
+      - Tech: Docker, Python, React, FireWorks AI, Discord.js
+    ]
+
     === Farmz Asia Mobile App - Wellness at your fingertip
     #block(
       below: 8pt,
@@ -91,34 +126,6 @@
       - Led development of wellness tracking features
       - 2K+ downloads available on both Appstore and Playstore
       - Tech: Flutter, Golang, Vultr, MySQL
-    ]
-
-    === SHIFT - Decentralized Event Platform
-    #block(
-      below: 8pt,
-    )[
-      - Built platform that aims to avoid clashing community events
-      - Implemented quadratic funding pool with contribute to earn feature
-      - Tech: Next, Solidity, Scroll L2, World 
-    ]
-
-
-    === Mr Beans - AI Coffee Supplier Analysis
-    #block(
-      below: 8pt,
-    )[
-      - Developed ML models & AI Agent for coffee bean delivery related workflow
-      - 95% accuracy in bean type computer vision detection
-      - Tech: PyTorch, HuggingFace, OpenCV, MongoDB, Fireworks AI
-    ]
-
-    === Cof'e - AI Covid Risk Detection through CoughSound
-    #block(
-      below: 8pt,
-    )[
-      - Managed the UI Flow Procedure in ensuring product experience
-      - Deployed scalable web platform for real-time cough analysis
-      - Tech: Django, Jinja2, AWS, Celery
     ]
 
     == Certifications
@@ -135,7 +142,8 @@
     #block(
       spacing: 0.65em,
     )[
-      - MongoDB William Zola Award for Community Excellence 2024 Runner Up
+      - MongoDB William Zola Award for Community Excellence 2026 Champion
+      - MongoDB User Group Leader of the Month January 2026
     ]
     == Wins
     #block(
@@ -151,11 +159,11 @@
     == Languages
     - Professional: English, Mandarin, Malay
     - Conversational: Cantonese
-    - Basic: Japanese
+    - Basic: Japanese, Vietnamese
 
     == Referee
-    Harshit Mehta, Senior Devrel Manager \@ MongoDB
+    Harshit Mehta, Developer Relations \@ Guidewire
     #findMe((
-      (name: "none", link: "mailto:harshit.mehta@mongodb.com", display: "harshit.mehta@mongodb.com"),
+      (name: "none", link: "mailto:harshit.mehta@live.com", display: "harshit.mehta@live.com"),
     ))
 ])
