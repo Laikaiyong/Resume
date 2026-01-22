@@ -43,13 +43,6 @@
     - Contribute to sleep ring module on mobile app and Farmz admin portal
     - Led development on DML membership subscription portal
 
-    === Software Developer | Data Practitionist \@ _Infront Consulting_ \
-    #term[May 2022 --- Dec 2023][Remote | Malaysia]
-
-    - Led development across 4 projects spanning mobile, web, and data solutions
-    - Increased client satisfaction through agile delivery
-    - Involved in Logictics, HealthCare, Agriculture & Consulting
-    
     == Education
 
     === Bachelor of Science in Software Engineering \
@@ -95,9 +88,9 @@
     #block(
       below: 8pt,
     )[
-      - Built full platform from product features to business analytics
-      - Developed comprehensive commerce flow, product management, and inventory tracking
-      - Tech: React, Hono, Cloudflare, Supabase, EVM, Abstract, Solidity
+      - Built platform from product features to business analytics
+      - Developed full commerce flow
+      - Tech: React, Hono, Cloudflare, Supabase, EVM
     ]
 
 
@@ -107,15 +100,15 @@
     )[
       - Built and deployed LLM-supported website with custom compiler (Rust, Solidity) backend
       - Implemented serverless architecture for high availability
-      - Tech: Next, AWS Lambda, Docker, ECS Fargate, MongoDB, Gemini
+      - Tech: Next, AWS, Docker, MongoDB, Gemini
     ]
 
     === Exponent AI - Web3 Research AI Agent
     #block(
       below: 8pt,
     )[
-      - Built multi-platform AI research agent for Web3 ecosystem (Telegram & Discord bots)
-      - Developed scalable chatbot architecture with LLM integration for real-time crypto research
+      - Built multi-platform AI research agent
+      - Developed real-time crypto research
       - Tech: Docker, Python, React, FireWorks AI, Discord.js
     ]
 
