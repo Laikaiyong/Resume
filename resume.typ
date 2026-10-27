@@ -8,7 +8,7 @@
     #block(
       below: 12pt,
     )[
-      #text(size: 14pt)[Full Stack Engineer]
+      #text(size: 14pt)[Tech Generalist]
     ]
 
      #findMe((
@@ -18,55 +18,52 @@
     ))
 
     == About Me
-    A full stack engineer with experiences in Web3, Mobile & Data Science Development. Built multiple award-winning applications both career and hackathons. Demonstrated leadership through community initiatives reaching thousands developers globally.
+    Product engineer with strong emphasis on concepts & product understanding beyond tech stack. Experienced in multiple industries and multiple tech specializations with award-winning applications. Demonstrated leadership through community building.
 
     == Experience
   
-    === Full Stack Engineer \@  _Gacha_ \
+    === Product Engineer \@  _Gacha_ \
     #term[Aug 2025 --- Current][Remote | Hong Kong]
 
-    - Fast-paced development iteration and product engineering
-    - Develop comprehensive features to support selling to shipping
-    - Collaborate in a team of 5 to deliver product
+    - Lead a team of 4 to develop the mobile app from 0 to daily active users of 1000+, drive 90% purchases on app daily
+    - In charge of core modules like payment and business intelligence tracking & reporting
   
-    === Full Stack Software Engineer \@  _RareSkills_ \
-    #term[Jan 2025 --- Current][Remote | United States]
+    === Product Engineer \@  _RareSkills_ \
+    #term[Jan 2025 --- Aug 2026][Remote | United States]
 
-    - Solo Designed, developed and deployed end-to-end solution for code exercise platform
-    - Work closely and report directly to COO and CEO
-    - Design and maintain full tech infrastructure 
+    - Solely designed, developed and deployed end-to-end solution for code exercise platform as the only developer
+    - Worked closely with COO and CEO to design product features and business logic
 
     === Full Stack Software Developer \@  _Farmz Asia_ \
     #term[Aug 2023 --- Feb 2025][Remote | Singapore]
 
-    - Led development of beauty challenge module on mobile app reaching 2000+ active users
-    - Contribute to sleep ring module on mobile app and Farmz admin portal
-    - Led development on DML membership subscription portal
+    - Led development of membership portal & beauty challenge module on mobile app reaching 2000+ users
+    - UX UI design and implementation of sleep ring hardware module and admin portal
 
     == Education
 
     === Bachelor of Science in Software Engineering \
     _Asia Pacific University | De Montfort University_\
     #term[Nov 2022 --- Nov 2024][Kuala Lumpur, MY]
-    #text(weight: "medium")[CGPA: 3.74/4.00]
+    #text(weight: "medium")[CGPA: 3.69/4.00]
 
     == Ambassadorship
 
-    - Google Developer Group Cloud KL Lead: Organized workshops, conferences, meetups (10k+ participants)
-    - MongoDB UG KL Lead | Community Creator: Organized Bi-Monthly Meetups (average 40+ participants)
-    - Tableau UG KL Lead: Organized Monthly Meetups & Viz Challenge (Gather professionals from dif fields)
-    - Notion Ambassadors: Organized Meetups and Gathering over Notion in Malaysia
+    - MongoDB Champion: Face of MongoDB in Malaysia, spoke, mentored and judged in multiple events
+    - GDG Cloud KL Lead: Organized workshops, conferences, meetups (10k+ participants)
+    - Notion Ambassadors: Organized meetups in Malaysia, spoke in Notion events
+    - Stripe Community Builder: Spoke in Stripe events, organized workshops and meetups in Malaysia
 
-    == Public Speaking
+    == Public Speaking & Judging
 
-    === MongoDB .local London 2025 \
-    _Livestream podcast on Community Upskilling_\
+    === Google Developer Group Cloud KL DevFest 2026 - _RAG with MongoDB Atlas, Gemini, and Voyage AI_
 
-    === Google Developer Group Cloud KL DevFest 2025 \
-    _Spoke about building AI agent with ADK & MongoDB_\
+    === MongoDB NYC AI Hackathon 2026 - _First round judge_
 
-    === AWS Cloud Day Malaysia 2024 \
-    _Spoke about Building RAG with MongoDB & Amazon Titan for AWS_\
+    === MongoDB .local London 2025 - _Livestream podcast on Community Upskilling_
+
+
+    === AWS Cloud Day Malaysia 2024 - _Building RAG with MongoDB & Amazon Bedrock_
 
     #colbreak()
 
@@ -75,51 +72,30 @@
       spacing: 8pt,
     )[
       #badge-text("Language", "Python · TypeScript · JavaScript · Golang · Dart")
-      #badge-text("Frontend", "React · Angular · Vue · Next · Flutter · React Native")
-      #badge-text("Backend", "Django · Node · FastAPI · Gin · Laravel · Express")
-      #badge-text("Cloud", "AWS · Azure · Firebase · Supabase · Stripe")
+      #badge-text("Frontend", "React · Angular · Vue · Next · Flutter")
+      #badge-text("Backend", "Django · Node · FastAPI · Gin · Laravel")
+      #badge-text("AI/ML", "Gemini · OpenAI · Anthropic · LangChain · RAG")
+      #badge-text("Cloud", "AWS · Azure · Firebase · Cloudflare, Posthog")
       #badge-text("Data", "MongoDB · MySQL · PostgreSQL · S3 · RDS")
-      #badge-text("Web3", "Solidity · web3 · ethers · Move · Rust · Metamask")
+      #badge-text("Web3", "Solidity · web3 · ethers · Move · Hardhat")
     ]
 
     == Projects
 
-    === Gacha Pull - TCG Card Packs E-Commerce Platform
-    #block(
-      below: 8pt,
-    )[
-      - Built platform from product features to business analytics
-      - Developed full commerce flow
-      - Tech: React, Hono, Cloudflare, Supabase, EVM
-    ]
-
+    === Gacha Pull - TCG Collectibles E-Commerce Platform
+    Built platform from product features to business analytics with crypto/fiat payment flow. _React Native, React, Hono, Posthog, Cloudflare, Supabase, EVM_
 
     === RareCode - LLM Guided Code Exercises
-    #block(
-      below: 8pt,
-    )[
-      - Built and deployed LLM-supported website with custom compiler (Rust, Solidity) backend
-      - Implemented serverless architecture for high availability
-      - Tech: Next, AWS, Docker, MongoDB, Gemini
-    ]
+    Built and deployed AI-assisted learning platform with custom compiler (Rust, Solidity) backend using serverless architecture. _Next, AWS, Docker, MongoDB, Gemini_
 
     === Exponent AI - Web3 Research AI Agent
-    #block(
-      below: 8pt,
-    )[
-      - Built multi-platform AI research agent
-      - Developed real-time crypto research
-      - Tech: Docker, Python, React, FireWorks AI, Discord.js
-    ]
+    Built multi-platform AI research agent for real-time crypto research. _Docker, Python, React, FireWorks AI, Discord.js, Ansible, Hasura_
 
     === Farmz Asia Mobile App - Wellness at your fingertip
-    #block(
-      below: 8pt,
-    )[
-      - Led development of wellness tracking features
-      - 2K+ downloads available on both Appstore and Playstore
-      - Tech: Flutter, Golang, Vultr, MySQL
-    ]
+    Led development of wellness tracking features with 2K+ downloads. _Flutter, Golang, Vultr, MySQL_
+
+    == Consulting & Training
+    Led Atlassian team and consulted on Notion/Lark platforms - providing administration, custom development, training, and productivity tool migration
 
     == Certifications
     #block(
@@ -131,31 +107,24 @@
       - Notion Advanced
     ]
 
-    == Award
+    == Awards & Recognition
     #block(
       spacing: 0.65em,
     )[
       - MongoDB William Zola Award for Community Excellence 2026 Champion
       - MongoDB User Group Leader of the Month January 2026
-    ]
-    == Wins
-    #block(
-      spacing: 0.65em,
-    )[
-      - BNB Hack Q4 Top 10 (200+ teams)
       - ETH KL 2024 Main Track Winner (1st/60+ teams)
       - Hilti ITC 2024 Champion (Trip to Switzerland)
-      - Solana BuildStation Champion (200+ participants)
       - Google Workspace Hackathon Main Track Champion (1200 participants)
+      - BNB Hack Q4 Top 10 (200+ teams)
+      - Solana BuildStation Champion (200+ participants)
     ]
 
     == Languages
-    - Professional: English, Mandarin, Malay
-    - Conversational: Cantonese
-    - Basic: Japanese, Vietnamese
+    Professional: English, Mandarin, Malay | Conversational: Cantonese | Basic: Japanese
 
     == Referee
-    Harshit Mehta, Developer Relations \@ Guidewire
+    Harshit Mehta, Senior Developer Advocate \@ MongoDB
     #findMe((
       (name: "none", link: "mailto:harshit.mehta@live.com", display: "harshit.mehta@live.com"),
     ))
